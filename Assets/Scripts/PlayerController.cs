@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
 
-        if (transform.position.y < -5)
+        if (transform.position.y < -15)
         {
             transform.position = new Vector3(0, 0, 0);
             transform.forward = new Vector3(0, 0, 0);
